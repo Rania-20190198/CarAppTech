@@ -25,7 +25,7 @@ public class DataArrays implements DataFunctions {
     private static DataArrays Data;
     private static ArrayList<String> Discount_area =new ArrayList<>();
     private ArrayList<Event> events = new ArrayList<>();
-
+//arraylistforpublicholidays
     public static ArrayList<String> PublicHolidays = new ArrayList<String>(Arrays.asList(
             "04-01-2022", "02-01-2022","07-01-2022","25-01-2022","25-04-2022","01-05-2022","02-05-2022","03-05-2022","04-05-2022","05-05-2022","30-06-2022",
             "08-07-2022","09-07-2022","10-07-2022","11-07-2022","12-07-2022","23-07-2022","30-07-2022","06-10-2022","08-10-2022"));
