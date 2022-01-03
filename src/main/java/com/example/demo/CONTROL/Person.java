@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 ;
 
-public abstract class Person implements IRegister, INotifier, ILogin { //abstract class that has information matches between driver and user
+public abstract class Person implements IRegister, INotifier, ILogin { //abstract class that has information matches between driverClass and userClass
     private String username;
     private String email;
     private String phone;
@@ -33,6 +33,7 @@ public abstract class Person implements IRegister, INotifier, ILogin { //abstrac
     public Person login(String username, String Password){ //login will be implemented in both driver and user
         return login.login(username,password);
     }
+    
     public boolean register(Person person){ // will be implemented in driver and user depends on the type of the person (driver,user)
         return register.register(person);
     }
