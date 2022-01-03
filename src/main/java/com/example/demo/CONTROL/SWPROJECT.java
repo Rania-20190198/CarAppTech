@@ -70,6 +70,7 @@ public class SWPROJECT {
         pass =sc.nextLine();
         return pass;
     }
+    //main
     public static void main(String[] args) {
         SpringApplication.run(SWPROJECT.class, args);
 
